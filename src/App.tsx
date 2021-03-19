@@ -4,7 +4,7 @@ import { Dashboard } from "./components/Dashboard";
 
 import { GlobalStyle } from "./styles/global";
 import { useCallback, useState } from "react";
-import { TransactionsProvider } from "./TransactionsContext";
+import { TransactionsProvider } from "./hooks/useTransactions";
 
 export function App() {
   const [isNewTransactionModalOpen, setIsNewTransacionModalOpen] = useState(false);
